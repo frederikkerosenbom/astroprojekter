@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: system-ui, sans-serif;
+  line-height: 1.65;
+  color: #212529;
+  /* background: radial-gradient(circle at top, #fff7ef 0%, transparent 45%), linear-gradient(180deg, #faf8f3 0%, #f0ede7 100%); */
+  background: black;
+}
+/* body {
+  min-height: 100svh;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: min(1200px, 100% - 4rem);
+} */
+
+header,
+footer,
+section {
+  padding-block: 0.5rlh;
+  padding-inline: 2rem;
+}
+
+.cards {
+  display: flex;
+}
+
+main {
+  padding: 0;
+}
+
+/* #services {
+  display: grid;
+  gap: 0.5rlh;
+} */
+
+/* ul {
+  padding-left: 1rem;
+} */
+
+h2 {
+  color: #b3b3b3;
+}
